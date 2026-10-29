@@ -1,0 +1,592 @@
+symbol,family,introduced,era,users,user,internal_callers,test,pair_used,asn1_partial,crypto_refs
+ADMISSIONS_free,ADMISSIONS,1.1.1,pre-3.0,0,,,,,,crypto/x509/v3_admis.c
+EVP_aria_128_cbc,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_ccm,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_cfb1,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_cfb8,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_ctr,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_ecb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_128_ofb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_cbc,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_ccm,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_cfb1,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_cfb8,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_ctr,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_ecb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_192_ofb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_cbc,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_ccm,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_cfb1,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_cfb8,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_ctr,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_ecb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_aria_256_ofb,ARIA,1.1.1,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+ASN1_ENUMERATED_get_int64,ASN1,1.1.0,pre-3.0,0,,,,,,crypto/asn1/a_int.c crypto/x509/v3_ac_tgt.c crypto/x509/x_attrib.c
+ASN1_ENUMERATED_set_int64,ASN1,1.1.0,pre-3.0,0,,,,,,crypto/asn1/a_int.c
+ASN1_STRING_TABLE_add,ASN1,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/asn1/asn_mstbl.c
+ASN1_STRING_TABLE_cleanup,ASN1,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/asn1/asn_mstbl.c
+ASN1_STRING_set_by_NID,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_att.c crypto/x509/x509name.c
+ASN1_TYPE_cmp,ASN1,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/asn1/x_algor.c crypto/x509/v3_genn.c
+ASN1_add_oid_module,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_mall.c
+ASN1_add_stable_module,ASN1,1.1.0,pre-3.0,0,,,,,,crypto/conf/conf_mall.c
+ASN1_generate_v3,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn1_gen.c crypto/x509/v3_conf.c crypto/x509/v3_san.c
+ASN1_item_ex_d2i,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_name.c
+ASN1_item_ex_free,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/tasn_dec.c
+ASN1_item_ex_i2d,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/tasn_enc.c crypto/x509/x_name.c crypto/x509/x_pubkey.c
+ASN1_item_ex_new,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/tasn_new.c
+ASN1_item_ndef_i2d,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/bio_ndef.c
+ASN1_item_sign_ctx,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/a_sign.c crypto/ocsp/ocsp_local.h crypto/x509/x_all.c
+ASN1_str2mask,ASN1,1.1.0,pre-3.0,0,,,,,,crypto/asn1/asn_mstbl.c
+ASN1_tag2bit,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn1_gen.c crypto/asn1/tasn_dec.c crypto/x509/x_name.c
+PEM_write_bio_ASN1_stream,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_mime.c
+i2d_ASN1_bio_stream,ASN1,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/asn1/asn_mime.c crypto/pkcs7/pk7_mime.c
+i2s_ASN1_ENUMERATED,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_enum.c
+i2s_ASN1_ENUMERATED_TABLE,ASN1,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_enum.c
+BIO_asn1_set_prefix,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/bio_ndef.c
+BIO_asn1_set_suffix,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/bio_ndef.c
+BIO_dump_cb,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bio/bio_dump.c
+BIO_dump_indent_cb,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bio/bio_dump.c
+BIO_dup_chain,BIO,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bio/bss_acpt.c
+BIO_f_asn1,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/bio_ndef.c
+BIO_fd_should_retry,BIO,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bio/bss_fd.c
+BIO_get_callback_ex,BIO,1.1.1,pre-3.0,0,,,,,,crypto/bio/bss_acpt.c crypto/evp/bio_enc.c
+BIO_hex_string,BIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ct/ct_prn.c crypto/evp/p5_crpt2.c crypto/pkcs12/p12_key.c
+BIO_new_NDEF,BIO,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/asn1/asn_mime.c crypto/pkcs7/bio_pk7.c
+BN_BLINDING_convert_ex,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_blind.c crypto/rsa/rsa_ossl.c
+BN_BLINDING_create_param,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_blind.c crypto/rsa/rsa_crpt.c
+BN_BLINDING_invert_ex,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_blind.c crypto/rsa/rsa_ossl.c
+BN_BLINDING_new,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_blind.c
+BN_BLINDING_set_current_thread,BN,1.1.0,pre-3.0,0,,,,,,crypto/bn/bn_blind.c
+BN_BLINDING_update,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_blind.c
+BN_MONT_CTX_set_locked,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dh/dh_key.c crypto/dsa/dsa_ossl.c crypto/rsa/rsa_ossl.c
+BN_RECP_CTX_free,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_exp.c
+BN_RECP_CTX_set,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_exp.c
+BN_consttime_swap,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gcd.c crypto/dsa/dsa_ossl.c crypto/ec/ec_mult.c
+BN_div_recp,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_recp.c
+BN_get0_nist_prime_192,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/ec/ecp_nist.c
+BN_get0_nist_prime_224,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ec/ecp_nist.c
+BN_get0_nist_prime_256,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/ec/ecp_nist.c
+BN_get0_nist_prime_384,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ec/ecp_nist.c
+BN_get0_nist_prime_521,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ec/ecp_nist.c
+BN_kronecker,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_sqrt.c crypto/ec/ecp_oct.c
+BN_mod_exp2_mont,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/dsa/dsa_ossl.c
+BN_mod_exp_recp,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_exp.c
+BN_mod_lshift1_quick,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_sqrt.c crypto/ec/ecp_oct.c crypto/ec/ecp_smpl.c
+BN_mod_lshift_quick,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_mod.c crypto/ec/ecp_smpl.c
+BN_mod_mul_reciprocal,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_exp.c
+BN_mod_sub_quick,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ec/ecp_oct.c crypto/ec/ecp_smpl.c
+BN_nist_mod_192,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_nist.c crypto/ec/ecp_nist.c
+BN_nist_mod_224,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_nist.c crypto/ec/ecp_nist.c crypto/ec/ecp_nistp224.c
+BN_nist_mod_256,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_nist.c crypto/ec/ecp_nist.c crypto/ec/ecp_nistp256.c
+BN_nist_mod_384,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_nist.c crypto/ec/ecp_nist.c crypto/ec/ecp_nistp384.c
+BN_nist_mod_521,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_nist.c crypto/ec/ecp_nist.c crypto/ec/ecp_nistp521.c
+BN_nist_mod_func,BN,1.1.0,pre-3.0,0,,,,,,crypto/ec/ec_cvt.c
+BN_reciprocal,BN,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_recp.c
+BN_security_bits,BN,1.1.0,pre-3.0,0,,,,,,crypto/dh/dh_lib.c crypto/dsa/dsa_lib.c
+BN_usub,BN,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_add.c crypto/bn/bn_div.c crypto/bn/bn_gcd.c crypto/bn/bn_mont.c crypto/bn/bn_recp.c crypto/deterministic_nonce.c crypto/ec/ecp_oct.c crypto/ec/ecp_smpl.c
+BUF_MEM_new_ex,BUF,1.1.0,pre-3.0,0,,,,,,crypto/bio/bss_mem.c
+EVP_camellia_128_cfb1,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_camellia_128_cfb8,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_camellia_192_cfb1,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_camellia_192_cfb8,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_camellia_256_cfb1,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_camellia_256_cfb8,CAMELLIA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_cast5_cfb64,CAST,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+CONF_dump_bio,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_lib.c
+CONF_get_string,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_conf.c
+CONF_imodule_get_name,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_cnf.c
+CONF_imodule_get_usr_data,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_ssl.c
+CONF_imodule_get_value,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn_moid.c crypto/asn1/asn_mstbl.c crypto/conf/conf_ssl.c crypto/evp/evp_cnf.c crypto/provider_conf.c crypto/rand/rand_lib.c
+CONF_imodule_set_usr_data,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_ssl.c
+CONF_load_bio,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_lib.c
+CONF_module_add,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn_moid.c crypto/asn1/asn_mstbl.c crypto/conf/conf_ssl.c crypto/evp/evp_cnf.c crypto/provider_conf.c crypto/rand/rand_lib.c
+CONF_set_nconf,CONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_lib.c crypto/x509/v3_conf.c
+CRYPTO_THREAD_cleanup_local,CRYPTO,1.1.0,pre-3.0,0,,,y,,,crypto/context.c crypto/init.c crypto/initthread.c
+CRYPTO_THREAD_compare_id,CRYPTO,1.1.0,pre-3.0,0,,,,,,crypto/bn/bn_blind.c
+CRYPTO_THREAD_get_local,CRYPTO,1.1.0,pre-3.0,0,,,y,,,crypto/context.c crypto/init.c crypto/initthread.c crypto/threads_common.c crypto/threads_pthread.c
+CRYPTO_THREAD_init_local,CRYPTO,1.1.0,pre-3.0,0,,,y,,,crypto/context.c crypto/init.c crypto/initthread.c crypto/threads_common.c crypto/threads_pthread.c
+CRYPTO_THREAD_set_local,CRYPTO,1.1.0,pre-3.0,0,,,y,,,crypto/context.c crypto/init.c crypto/initthread.c crypto/threads_common.c crypto/threads_pthread.c
+CTLOG_STORE_get0_log_by_id,CT,1.1.0,pre-3.0,0,,,y,,,crypto/ct/ct_prn.c crypto/ct/ct_sct.c
+CTLOG_free,CT,1.1.0,pre-3.0,0,,,y,,,crypto/ct/ct_log.c
+CTLOG_get0_name,CT,1.1.0,pre-3.0,0,,,y,,,crypto/ct/ct_prn.c
+CTLOG_get0_public_key,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_sct.c
+SCT_get_log_entry_type,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_sct.c
+SCT_new,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c crypto/ct/ct_oct.c
+SCT_set0_extensions,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c
+SCT_set0_log_id,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c
+SCT_set1_signature,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_oct.c
+SCT_set_log_entry_type,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c crypto/ct/ct_sct.c
+SCT_set_timestamp,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c
+SCT_set_version,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_b64.c
+SCT_validate,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_sct.c
+i2o_SCT,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_oct.c
+i2o_SCT_LIST,CT,1.1.0,pre-3.0,0,,,y,,,crypto/ct/ct_oct.c
+o2i_SCT,CT,1.1.0,pre-3.0,0,,,,,,crypto/ct/ct_oct.c
+EVP_des_cfb1,DES,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_des_cfb64,DES,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+EVP_des_ede3_cfb1,DES,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/evp/c_allc.c
+EVP_des_ede3_wrap,DES,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_des_ede_cfb64,DES,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+BIO_dgram_non_fatal_error,DGRAM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bio/bss_dgram.c
+BIO_s_datagram_sctp,DGRAM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bio/bss_dgram.c
+DIST_POINT_set_dpname,DIST,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_crl.c
+DSO_METHOD_openssl,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_lib.c
+DSO_bind_func,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/comp/c_brotli.c crypto/comp/c_zlib.c crypto/comp/c_zstd.c crypto/conf/conf_mod.c crypto/provider_core.c
+DSO_convert_filename,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_dl.c crypto/dso/dso_dlfcn.c crypto/dso/dso_vms.c crypto/dso/dso_win32.c crypto/provider_core.c
+DSO_ctrl,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_lib.c crypto/provider_core.c
+DSO_flags,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_dl.c crypto/dso/dso_dlfcn.c
+DSO_free,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/comp/c_brotli.c crypto/comp/c_zlib.c crypto/comp/c_zstd.c crypto/conf/conf_mod.c crypto/dso/dso_lib.c crypto/provider_core.c
+DSO_get_filename,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/provider_core.c
+DSO_load,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/comp/c_brotli.c crypto/comp/c_zlib.c crypto/comp/c_zstd.c crypto/conf/conf_mod.c crypto/dso/dso_lib.c crypto/provider_core.c
+DSO_merge,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/provider_core.c
+DSO_new,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/provider_core.c
+DSO_pathbyaddr,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_lib.c
+DSO_set_filename,DSO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dso/dso_lib.c
+ECPARAMETERS_free,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+ECPARAMETERS_new,EC,1.1.0,pre-3.0,0,,,,,,crypto/ec/ec_asn1.c
+ECPKPARAMETERS_free,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+ECPKPARAMETERS_new,EC,1.1.0,pre-3.0,0,,,,,,crypto/ec/ec_asn1.c
+EC_GROUP_check_discriminant,EC,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ec/ec_check.c
+EC_GROUP_get_ecparameters,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+EC_GROUP_get_ecpkparameters,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+EC_GROUP_get_mont_data,EC,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/sm2/sm2_sign.c
+EC_GROUP_new_from_ecparameters,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+EC_GROUP_new_from_ecpkparameters,EC,1.1.0,pre-3.0,0,,,y,,,crypto/ec/ec_asn1.c
+EC_GROUP_set_curve,EC,1.1.1,pre-3.0,0,,,y,,,crypto/ec/ec_cvt.c crypto/ec/ec_lib.c
+EC_POINT_dbl,EC,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/ec/ec_local.h crypto/ec/ec_mult.c crypto/ec/ecp_nistz256.c crypto/ec/ecp_smpl.c
+BN_GF2m_add,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_oct.c crypto/ec/ec2_smpl.c
+BN_GF2m_arr2poly,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c
+BN_GF2m_mod,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c
+BN_GF2m_mod_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_oct.c crypto/ec/ec2_smpl.c
+BN_GF2m_mod_div,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_smpl.c
+BN_GF2m_mod_exp_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c
+BN_GF2m_mod_inv,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_smpl.c
+BN_GF2m_mod_mul,EC2M,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bn/bn_gf2m.c
+BN_GF2m_mod_mul_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_smpl.c
+BN_GF2m_mod_solve_quad_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_oct.c
+BN_GF2m_mod_sqr_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_smpl.c
+BN_GF2m_mod_sqrt_arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_oct.c
+BN_GF2m_poly2arr,EC2M,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/bn/bn_gf2m.c crypto/ec/ec2_smpl.c
+ERR_add_error_vdata,ERR,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/err/err.c
+ESS_CERT_ID_V2_free,ESS,1.1.1,pre-3.0,0,,,,,,crypto/ess/ess_lib.c
+ESS_CERT_ID_V2_new,ESS,1.1.1,pre-3.0,0,,,,,,crypto/ess/ess_lib.c
+ESS_CERT_ID_free,ESS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ess/ess_lib.c
+ESS_SIGNING_CERT_V2_free,ESS,1.1.1,pre-3.0,0,,,,,,crypto/ess/ess_lib.c crypto/ts/ts_rsp_sign.c crypto/ts/ts_rsp_verify.c
+ESS_SIGNING_CERT_V2_new,ESS,1.1.1,pre-3.0,0,,,,,,crypto/ess/ess_lib.c
+ESS_SIGNING_CERT_free,ESS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ess/ess_lib.c crypto/ts/ts_rsp_sign.c crypto/ts/ts_rsp_verify.c
+EVP_add_alg_module,EVP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_mall.c
+EVP_CIPHER_asn1_to_param,EVP_CIPHER,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/p5_crpt2.c crypto/pkcs7/pk7_doit.c
+EVP_CIPHER_param_to_asn1,EVP_CIPHER,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p5_pbev2.c crypto/asn1/p5_scrypt.c crypto/pkcs7/pk7_doit.c
+EVP_ENCODE_CTX_num,EVP_ENCODE,1.1.0,pre-3.0,0,,,y,,,crypto/evp/bio_b64.c
+EVP_MD_CTX_clear_flags,EVP_MD,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/digest.c crypto/evp/evp_lib.c crypto/evp/m_sigver.c
+EVP_PBE_alg_add_type,EVP_PBE,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_pbe.c
+EVP_PBE_cleanup,EVP_PBE,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/names.c
+EVP_PKEY_CTX_ctrl_uint64,EVP_PKEY,1.1.1,pre-3.0,0,,,,,,crypto/evp/pmeth_lib.c
+EVP_PKEY_CTX_dup,EVP_PKEY,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/evp/digest.c crypto/evp/m_sigver.c
+EVP_PKEY_get_attr,EVP_PKEY,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_crt.c
+EVP_PKEY_get_attr_by_NID,EVP_PKEY,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_crt.c
+EVP_PKEY_set_type_str,EVP_PKEY,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pem/pem_pkey.c
+GENERAL_SUBTREE_free,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_ncons.c
+GENERAL_SUBTREE_new,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_ncons.c
+i2v_GENERAL_NAME,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_print.c crypto/x509/v3_info.c crypto/x509/v3_san.c
+v2i_GENERAL_NAME,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_crld.c crypto/x509/v3_san.c
+v2i_GENERAL_NAMES,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_crld.c
+v2i_GENERAL_NAME_ex,GENERAL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_info.c crypto/x509/v3_ncons.c crypto/x509/v3_san.c
+EVP_idea_cfb64,IDEA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+EVP_idea_ecb,IDEA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_idea_ofb,IDEA,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+ISSUING_DIST_POINT_free,ISSUING,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_crld.c crypto/x509/x_crl.c
+ISSUING_DIST_POINT_new,ISSUING,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_crld.c
+EVP_rc4_hmac_md5,MD5,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_mdc2,MDC2,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/evp/c_alld.c
+NAMING_AUTHORITY_free,NAMING,1.1.1,pre-3.0,0,,,,,,crypto/x509/v3_admis.c
+NCONF_default,NCONF,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/conf/conf_lib.c
+NCONF_dump_bio,NCONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_lib.c
+NCONF_free_data,NCONF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/conf/conf_lib.c
+NCONF_get_number_e,NCONF,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/conf/conf_lib.c crypto/conf/conf_mod.c
+NOTICEREF_new,NOTICEREF,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_cpols.c
+OBJ_NAME_add,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/names.c
+OBJ_NAME_cleanup,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/names.c
+OBJ_NAME_init,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/objects/o_names.c
+OBJ_NAME_remove,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/objects/o_names.c
+OBJ_bsearch_ex_,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/objects/obj_dat.c
+OBJ_sigid_free,OBJ,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/names.c
+EVP_aes_192_ocb,OCB,1.1.0,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+OCSP_BASICRESP_add_ext,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_CRLID_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_CRLID_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_ONEREQ_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_cl.c
+OCSP_ONEREQ_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_cl.c
+OCSP_REQUEST_get_ext,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_REQUEST_get_ext_by_NID,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_RESPBYTES_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_srv.c
+OCSP_RESPID_set_by_key,OCSP,1.1.1,pre-3.0,0,,,,,,crypto/ocsp/ocsp_srv.c
+OCSP_RESPID_set_by_name,OCSP,1.1.1,pre-3.0,0,,,,,,crypto/ocsp/ocsp_srv.c
+OCSP_REVOKEDINFO_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_srv.c
+OCSP_SERVICELOC_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_SERVICELOC_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_ext.c
+OCSP_SIGNATURE_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_cl.c
+OCSP_SIGNATURE_new,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_cl.c
+OCSP_request_add1_cert,OCSP,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ocsp/ocsp_cl.c
+OPENSSL_LH_error,OPENSSL,1.1.0,pre-3.0,0,,,,,,crypto/x509/v3_purp.c
+OPENSSL_isservice,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/cryptlib.c
+OPENSSL_issetugid,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/getenv.c
+OPENSSL_sk_insert,OPENSSL,1.1.0,pre-3.0,0,,,,,,crypto/stack/stack.c
+OPENSSL_sk_new_reserve,OPENSSL,1.1.1,pre-3.0,0,,,,,,crypto/stack/stack.c
+OPENSSL_utf82uni,OPENSSL,1.1.0,pre-3.0,0,,,,,,crypto/pkcs12/p12_key.c
+OSSL_STORE_INFO_new_CERT,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_new_CRL,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_new_NAME,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_new_PARAMS,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_new_PKEY,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_set0_NAME_description,OSSL_STORE,1.1.1,pre-3.0,0,,,,,,crypto/store/store_result.c
+OTHERNAME_cmp,OTHERNAME,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_genn.c
+PBE2PARAM_new,PBE2PARAM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p5_pbev2.c crypto/asn1/p5_scrypt.c
+PBEPARAM_new,PBEPARAM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p5_pbe.c
+PBKDF2PARAM_new,PBKDF2PARAM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p5_pbev2.c
+PEM_dek_info,PEM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pem/pem_info.c crypto/pem/pem_lib.c
+PEM_proc_type,PEM,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pem/pem_info.c crypto/pem/pem_lib.c
+PKCS12_BAGS_free,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_sbag.c
+PKCS12_BAGS_new,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_sbag.c
+PKCS12_MAC_DATA_free,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_mutl.c
+PKCS12_MAC_DATA_new,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_mutl.c
+PKCS12_PBE_keyivgen,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_pbe.c
+PKCS12_SAFEBAG_create0_p8inf,PKCS12,1.1.0,pre-3.0,0,,,,,,crypto/pkcs12/p12_crt.c
+PKCS12_SAFEBAG_create0_pkcs8,PKCS12,1.1.0,pre-3.0,0,,,,,,crypto/pkcs12/p12_sbag.c
+PKCS12_add_cert,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_add_safe,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_gen_mac,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_npas.c
+PKCS12_get_attr_gen,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_sbag.c
+PKCS12_item_pack_safebag,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_sbag.c
+PKCS12_pbe_crypt,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/store/store_result.c
+PKCS12_setup_mac,PKCS12,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_mutl.c
+PKCS5_PBE_keyivgen,PKCS5,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/evp/evp_pbe.c
+PKCS5_v2_PBE_keyivgen,PKCS5,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_pbe.c
+PKCS7_DIGEST_new,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_lib.c
+PKCS7_ENCRYPT_new,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_lib.c
+PKCS7_ENVELOPE_new,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_lib.c
+PKCS7_RECIP_INFO_get0_alg,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_lib.c
+PKCS7_SIGNER_INFO_sign,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_doit.c crypto/pkcs7/pk7_smime.c
+PKCS7_SIGN_ENVELOPE_new,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_lib.c
+PKCS7_digest_from_attributes,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_doit.c crypto/pkcs7/pk7_smime.c
+PKCS7_simple_smimecap,PKCS7,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_smime.c
+PKCS8_add_keyusage,PKCS8,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_crt.c
+PKCS8_pkey_add1_attr_by_NID,PKCS8,1.1.0,pre-3.0,0,,,,,,crypto/pkcs12/p12_attr.c
+POLICYQUALINFO_free,POLICYQUALINFO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/pcy_data.c crypto/x509/v3_cpols.c
+PROFESSION_INFO_free,PROFESSION,1.1.1,pre-3.0,0,,,,,,crypto/x509/v3_admis.c
+EVP_rc2_cfb64,RC2,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+EVP_rc2_ofb,RC2,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_rc5_32_12_16_cfb64,RC5,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/e_old.c
+EVP_rc5_32_12_16_ecb,RC5,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_rc5_32_12_16_ofb,RC5,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+ASIdOrRange_free,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+ASIdOrRange_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+ASIdentifierChoice_free,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+ASIdentifierChoice_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+ASRange_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+IPAddressChoice_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/x509/v3_addr.c
+IPAddressOrRange_free,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_addr.c
+IPAddressOrRange_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_addr.c
+IPAddressRange_new,RFC3779,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_addr.c
+X509v3_addr_add_inherit,RFC3779,1.1.0,pre-3.0,0,,,,,,crypto/x509/v3_addr.c
+X509v3_addr_validate_path,RFC3779,1.1.0,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+X509v3_asid_add_inherit,RFC3779,1.1.0,pre-3.0,0,,,,,,crypto/x509/v3_asid.c
+X509v3_asid_is_canonical,RFC3779,1.1.0,pre-3.0,0,,,y,,,crypto/x509/v3_asid.c
+X509v3_asid_validate_path,RFC3779,1.1.0,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+PKCS5_v2_scrypt_keyivgen,SCRYPT,1.1.0,pre-3.0,0,,,,,,crypto/evp/evp_pbe.c
+SCRYPT_PARAMS_new,SCRYPT,1.1.1,pre-3.0,0,,,,,,crypto/asn1/p5_scrypt.c
+EVP_seed_cbc,SEED,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_seed_ecb,SEED,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+EVP_seed_ofb,SEED,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/c_allc.c
+SMIME_text,SMIME,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs7/pk7_smime.c
+BIO_lookup,SOCK,1.1.0,pre-3.0,0,,,,,,crypto/bio/bio_sock.c crypto/bio/bss_acpt.c crypto/bio/bss_conn.c
+BIO_sock_error,SOCK,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bio/bss_conn.c
+BIO_socket_ioctl,SOCK,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/bio/bio_sock.c
+ASN1_d2i_fp,STDIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_all.c
+ASN1_i2d_fp,STDIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_all.c
+ASN1_item_d2i_fp,STDIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_all.c
+ASN1_item_i2d_fp,STDIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pkcs12/p12_utl.c crypto/x509/x_all.c
+i2d_PKCS8_PRIV_KEY_INFO_fp,STDIO,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_all.c
+SXNET_add_id_INTEGER,SXNET,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNET_add_id_asc,SXNET,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNET_free,SXNET,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNET_get_id_INTEGER,SXNET,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNET_new,SXNET,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNETID_free,SXNETID,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+SXNETID_new,SXNETID,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_sxnet.c
+TS_ACCURACY_dup,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_utils.c
+TS_ACCURACY_free,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c crypto/ts/ts_rsp_utils.c
+TS_ACCURACY_new,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_ACCURACY_set_micros,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_ACCURACY_set_millis,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_ACCURACY_set_seconds,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_ASN1_INTEGER_print_bio,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_req_print.c crypto/ts/ts_rsp_print.c
+TS_CONF_load_cert,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_CONF_load_certs,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_CONF_load_key,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_MSG_IMPRINT_dup,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_req_utils.c crypto/ts/ts_rsp_utils.c
+TS_OBJ_print_bio,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_req_print.c crypto/ts/ts_rsp_print.c
+TS_RESP_CTX_add_flags,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_RESP_CTX_add_policy,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_RESP_CTX_set_clock_precision_digits,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_RESP_CTX_set_ess_cert_id_digest,TS,1.1.1,pre-3.0,0,,,,,,crypto/ts/ts_conf.c
+TS_RESP_CTX_set_status_info_cond,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_STATUS_INFO_dup,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_utils.c
+TS_TST_INFO_set_accuracy,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_msg_imprint,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_nonce,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_ordering,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_policy_id,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_serial,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_time,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_tsa,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_TST_INFO_set_version,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_rsp_sign.c
+TS_X509_ALGOR_print_bio,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_lib.c
+TS_ext_print_bio,TS,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ts/ts_req_print.c crypto/ts/ts_rsp_print.c
+UI_get0_test_string,UI,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/ui/ui_openssl.c
+UI_get_result_length,UI,1.1.1,pre-3.0,0,,,,,,crypto/passphrase.c
+UI_get_result_string_length,UI,1.1.1,pre-3.0,0,,,,,,crypto/ui/ui_lib.c
+UI_set_method,UI,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/passphrase.c
+UI_set_result_ex,UI,1.1.1,pre-3.0,0,,,,,,crypto/ui/ui_lib.c crypto/ui/ui_util.c
+USERNOTICE_new,USERNOTICE,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_cpols.c
+X509_ATTRIBUTE_create_by_txt,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_att.c
+X509_CERT_AUX_free,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_x509.c
+X509_CERT_AUX_new,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_x509a.c
+X509_CRL_check_suiteb,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+X509_CRL_match,X509,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/x509/x509_lu.c
+X509_LOOKUP_get_method_data,X509,1.1.1,pre-3.0,0,,,,,,crypto/x509/by_store.c
+X509_LOOKUP_set_method_data,X509,1.1.1,pre-3.0,0,,,,,,crypto/x509/by_store.c
+X509_LOOKUP_shutdown,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_lu.c
+X509_NAME_ENTRY_create_by_OBJ,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509name.c
+X509_NAME_ENTRY_set_data,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509name.c
+X509_NAME_ENTRY_set_object,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509name.c
+X509_OBJECT_idx_by_subject,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_lu.c
+X509_PKEY_free,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/x_info.c crypto/asn1/x_pkey.c
+X509_PKEY_new,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/pem/pem_info.c
+X509_PURPOSE_get_trust,X509,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/x509/x509_vfy.c
+X509_PURPOSE_set,X509,1.0.2-or-earlier,pre-3.0,0,,,y,,,crypto/x509/x509_vpm.c
+X509_REQ_add_extensions_nid,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_req.c
+X509_SIG_INFO_get,X509,1.1.1,pre-3.0,0,,,,,,crypto/x509/x509_set.c
+X509_SIG_INFO_set,X509,1.1.1,pre-3.0,0,,,,,,crypto/ec/ecx_meth.c crypto/rsa/rsa_ameth.c
+X509_STORE_CTX_purpose_inherit,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+X509_TRUST_get0,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_trust.c
+X509_TRUST_get_by_id,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_trust.c crypto/x509/x509_vfy.c
+X509_TRUST_set,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_set1_policies,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vpm.c
+X509_aux_print,X509,1.1.0,pre-3.0,0,,,,,,crypto/x509/t_x509.c
+X509_get0_reject_objects,X509,1.1.0,pre-3.0,0,,,,,,crypto/x509/t_x509.c
+X509_get0_trust_objects,X509,1.1.0,pre-3.0,0,,,,,,crypto/x509/t_x509.c
+X509_get_pubkey_parameters,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+X509_policy_check,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x509_vfy.c
+X509_policy_tree_free,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/pcy_tree.c crypto/x509/x509_vfy.c
+X509_signature_dump,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/dsa/dsa_ameth.c crypto/rsa/rsa_ameth.c crypto/x509/t_acert.c crypto/x509/t_x509.c crypto/x509/v3_ac_tgt.c
+X509_trusted,X509,1.1.0,pre-3.0,0,,,,,,crypto/x509/t_x509.c
+d2i_X509_CERT_AUX,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_x509.c
+i2d_X509_CERT_AUX,X509,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/x_x509.c
+X509V3_NAME_from_section,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_crld.c crypto/x509/v3_san.c
+X509V3_add_value_bool,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_battcons.c crypto/x509/v3_bcons.c
+X509V3_add_value_int,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_battcons.c crypto/x509/v3_bcons.c crypto/x509/v3_pcons.c crypto/x509/v3_tlsf.c
+X509V3_get_section,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn1_gen.c crypto/x509/v3_cpols.c crypto/x509/v3_crld.c crypto/x509/v3_pci.c crypto/x509/v3_san.c
+X509V3_get_value_bool,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn1_gen.c crypto/evp/evp_cnf.c crypto/x509/v3_battcons.c crypto/x509/v3_bcons.c crypto/x509/v3_crld.c
+X509V3_get_value_int,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_asid.c crypto/x509/v3_battcons.c crypto/x509/v3_bcons.c crypto/x509/v3_pci.c crypto/x509/v3_pcons.c
+X509V3_section_free,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/asn1_gen.c crypto/x509/v3_cpols.c crypto/x509/v3_crld.c crypto/x509/v3_pci.c crypto/x509/v3_san.c
+X509v3_delete_ext,X509V3,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_conf.c crypto/x509/x509_v3.c
+X509at_add1_attr_by_NID,X509at,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p8_pkey.c crypto/evp/evp_pkey.c crypto/pkcs12/p12_attr.c crypto/x509/x509_acert.c crypto/x509/x509_req.c
+X509at_add1_attr_by_OBJ,X509at,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/asn1/p8_pkey.c crypto/evp/evp_pkey.c crypto/x509/x509_acert.c crypto/x509/x509_req.c
+X509at_add1_attr_by_txt,X509at,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_pkey.c crypto/pkcs12/p12_attr.c crypto/x509/x509_acert.c crypto/x509/x509_req.c
+X509at_get_attr_by_OBJ,X509at,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/evp/evp_pkey.c crypto/x509/x509_acert.c crypto/x509/x509_att.c crypto/x509/x509_req.c
+a2i_IPADDRESS_NC,a2i,1.0.2-or-earlier,pre-3.0,0,,,,,,crypto/x509/v3_san.c
+ASN1_item_d2i_bio_ex,ASN1,3.0.0,3.0+,0,,,,,,crypto/asn1/a_d2i_fp.c crypto/asn1/asn_mime.c crypto/pkcs12/p12_utl.c crypto/x509/x_all.c
+ASN1_item_new_ex,ASN1,3.0.0,3.0+,0,,,,,,crypto/pkcs7/pk7_asn1.c crypto/x509/x_pubkey.c crypto/x509/x_req.c crypto/x509/x_x509.c
+ASN1_item_sign_ex,ASN1,3.0.0,3.0+,0,,,,,,crypto/asn1/a_sign.c crypto/ocsp/ocsp_local.h crypto/x509/x_all.c
+ASN1_item_unpack_ex,ASN1,3.2.0,3.0+,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_sbag.c
+ASN1_item_verify_ex,ASN1,3.0.0,3.0+,0,,,y,,,crypto/asn1/a_verify.c crypto/ocsp/ocsp_local.h crypto/x509/x_all.c crypto/x509/x_crl.c
+d2i_AutoPrivateKey_ex,AutoPrivateKey,3.0.0,3.0+,0,,,y,,,crypto/asn1/d2i_pr.c crypto/pem/pem_info.c crypto/x509/x_all.c
+BIO_f_readbuffer,BIO,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_lib.c crypto/pem/pem_pkey.c
+BIO_s_core,BIO,3.0.0,3.0+,0,,,,,,crypto/bio/bss_core.c
+BIO_wait,BIO,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c
+BN_are_coprime,BN,3.1.0,3.0+,0,,,y,,,crypto/bn/bn_rsa_fips186_5.c
+BN_generate_prime_ex2,BN,3.0.0,3.0+,0,,,,,,crypto/bn/bn_prime.c crypto/dh/dh_gen.c crypto/rsa/rsa_gen.c
+BN_mod_exp_mont_consttime_x2,BN,3.0.0,3.0+,0,,,y,,,crypto/rsa/rsa_ossl.c
+BN_native2bn,BN,3.0.0,3.0+,0,,,y,,,crypto/params.c
+BN_priv_rand_ex,BN,3.0.0,3.0+,0,,,,,,crypto/bn/bn_gf2m.c crypto/bn/bn_prime.c crypto/bn/bn_rsa_fips186_5.c crypto/bn/bn_sqrt.c crypto/bn/bn_x931p.c crypto/dh/dh_key.c crypto/dsa/dsa_ossl.c crypto/ec/ec2_smpl.c
+BN_rand_ex,BN,3.0.0,3.0+,0,,,,,,crypto/bn/bn_prime.c
+BN_signed_bin2bn,BN,3.2.0,3.0+,0,,,y,,,crypto/bn/bn_lib.c
+BN_signed_bn2bin,BN,3.2.0,3.0+,0,,,y,,,crypto/bn/bn_lib.c
+BN_signed_bn2lebin,BN,3.2.0,3.0+,0,,,y,,,crypto/bn/bn_lib.c
+BN_signed_bn2native,BN,3.2.0,3.0+,0,,,,,,crypto/param_build.c crypto/params.c
+BN_signed_lebin2bn,BN,3.2.0,3.0+,0,,,y,,,crypto/bn/bn_lib.c
+BN_signed_native2bn,BN,3.2.0,3.0+,0,,,,,,crypto/params.c
+CRYPTO_atomic_add64,CRYPTO,3.4.0,3.0+,0,,,y,,,crypto/threads_win.c
+CRYPTO_atomic_and,CRYPTO,3.4.0,3.0+,0,,,y,,,crypto/context.c
+CRYPTO_atomic_cmp_exch_ptr,CRYPTO,4.1.0,3.0+,0,,,,,,crypto/property/property.c crypto/rand/rand_lib.c
+CRYPTO_atomic_load,CRYPTO,3.0.0,3.0+,0,,,y,,,crypto/context.c crypto/hashtable/hashtable.c crypto/init.c crypto/threads_win.c
+CRYPTO_atomic_load_ptr,CRYPTO,4.1.0,3.0+,0,,,,,,crypto/property/property.c crypto/rand/rand_lib.c
+CRYPTO_atomic_or,CRYPTO,3.0.0,3.0+,0,,,y,,,crypto/init.c
+CRYPTO_atomic_store,CRYPTO,3.4.0,3.0+,0,,,,,,crypto/context.c crypto/hashtable/hashtable.c
+CRYPTO_atomic_store_ptr,CRYPTO,4.1.0,3.0+,0,,,,,,crypto/property/property.c crypto/rand/rand_lib.c
+CTLOG_new_ex,CT,3.0.0,3.0+,0,,,,,,crypto/ct/ct_b64.c crypto/ct/ct_log.c
+CTLOG_new_from_base64_ex,CT,3.0.0,3.0+,0,,,,,,crypto/ct/ct_b64.c crypto/ct/ct_log.c
+BIO_s_dgram_pair,DGRAM,3.2.0,3.0+,0,,,y,,,crypto/bio/bss_dgram_pair.c
+EC_GROUP_get0_field,EC,3.0.0,3.0+,0,,,y,,,crypto/sm2/sm2_crypt.c
+ERR_add_error_mem_bio,ERR,3.0.0,3.0+,0,,,,,,crypto/x509/t_x509.c
+ERR_add_error_txt,ERR,3.0.0,3.0+,0,,,y,,,crypto/err/err_prn.c
+EVP_CIPHER_CTX_get_algor_params,EVP_CIPHER,3.4.0,3.0+,0,,,,,,crypto/evp/evp_lib.c
+EVP_CIPHER_CTX_is_encrypting,EVP_CIPHER,3.0.0,3.0+,0,,,y,,,crypto/evp/bio_enc.c crypto/pkcs12/p12_decr.c
+EVP_CIPHER_CTX_set_algor_params,EVP_CIPHER,3.4.0,3.0+,0,,,,,,crypto/evp/evp_lib.c
+EVP_CIPHER_can_pipeline,EVP_CIPHER,3.5.0,3.0+,0,,,y,,,crypto/evp/evp_enc.c
+EVP_CIPHER_get_type,EVP_CIPHER,3.0.0,3.0+,0,,,y,,,crypto/asn1/p5_pbev2.c crypto/asn1/p5_scrypt.c crypto/core_namemap.c crypto/pkcs7/pk7_doit.c crypto/pkcs7/pk7_lib.c
+EVP_KDF_CTX_get0_kdf,EVP_KDF,4.1.0,3.0+,0,,,y,,,crypto/evp/kdf_lib.c
+EVP_KEYMGMT_get0_name,EVP_KEYMGMT,3.0.0,3.0+,0,,,,,,crypto/evp/asymcipher.c crypto/evp/evp_pkey.c crypto/evp/exchange.c crypto/evp/kem.c crypto/evp/keymgmt_lib.c crypto/evp/m_sigver.c crypto/evp/p_lib.c crypto/evp/pmeth_lib.c crypto/evp/signature.c
+EVP_MD_CTX_gettable_params,EVP_MD,3.0.0,3.0+,0,,,y,,,crypto/evp/evp_lib.c
+EVP_MD_get_flags,EVP_MD,3.0.0,3.0+,0,,,,,,crypto/evp/evp_lib.c
+EVP_MD_get_pkey_type,EVP_MD,3.0.0,3.0+,0,,,,,,crypto/pkcs7/pk7_doit.c
+EVP_PBE_CipherInit_ex,EVP_PBE,3.0.0,3.0+,0,,,,,,crypto/evp/evp_pbe.c crypto/pkcs12/p12_decr.c
+EVP_PBE_find_ex,EVP_PBE,3.0.0,3.0+,0,,,y,,,crypto/evp/evp_pbe.c crypto/evp/p5_crpt2.c
+EVP_PKCS82PKEY_ex,EVP_PKCS82PKEY,3.0.0,3.0+,0,,,y,,,crypto/evp/evp_pkey.c crypto/pkcs12/p12_kiss.c crypto/store/store_result.c
+EVP_PKEY_CTX_get_params,EVP_PKEY,3.0.0,3.0+,0,,,y,,,crypto/asn1/a_sign.c crypto/evp/evp_lib.c crypto/evp/pmeth_lib.c crypto/rsa/rsa_ameth.c crypto/rsa/rsa_lib.c
+EVP_PKEY_CTX_gettable_params,EVP_PKEY,3.0.0,3.0+,0,,,y,,,crypto/evp/pmeth_lib.c
+EVP_PKEY_CTX_set_dh_rfc5114,EVP_PKEY,3.0.0,3.0+,0,,,,,,crypto/evp/dh_ctrl.c
+EVP_PKEY_CTX_set_mac_key,EVP_PKEY,3.0.0,3.0+,0,,,,,,crypto/evp/pmeth_gn.c
+EVP_PKEY_auth_decapsulate_init,EVP_PKEY,3.2.0,3.0+,0,,,y,,,crypto/hpke/hpke.c
+EVP_PKEY_auth_encapsulate_init,EVP_PKEY,3.2.0,3.0+,0,,,y,,,crypto/hpke/hpke.c
+EVP_PKEY_derive_init_ex,EVP_PKEY,3.0.0,3.0+,0,,,y,,,crypto/evp/exchange.c
+EVP_PKEY_set_type_by_keymgmt,EVP_PKEY,3.0.0,3.0+,0,,,,,,crypto/evp/exchange.c crypto/evp/keymgmt_lib.c crypto/evp/p_lib.c
+EVP_RAND_CTX_settable_params,EVP_RAND,3.0.0,3.0+,0,,,,,,crypto/rand/rand_lib.c
+EVP_SKEY_export,EVP_SKEY,3.5.0,3.0+,0,,,y,,,crypto/evp/kdf_lib.c crypto/evp/s_lib.c
+EVP_SKEY_import_SKEYMGMT,EVP_SKEY,3.6.0,3.0+,0,,,,,,crypto/evp/exchange.c crypto/evp/kdf_lib.c crypto/store/store_result.c
+EVP_SKEY_import_raw_key,EVP_SKEY,3.5.0,3.0+,0,,,y,,,crypto/store/store_result.c
+EVP_SKEY_up_ref,EVP_SKEY,3.5.0,3.0+,0,,,,,,crypto/evp/s_lib.c crypto/store/store_lib.c
+OSSL_HTTP_REQ_CTX_add1_header,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c
+OSSL_HTTP_REQ_CTX_exchange,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c crypto/ocsp/ocsp_http.c
+OSSL_HTTP_REQ_CTX_free,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c crypto/ocsp/ocsp_http.c
+OSSL_HTTP_REQ_CTX_nbio,HTTP,3.0.0,3.0+,0,,,,,,crypto/http/http_client.c
+OSSL_HTTP_REQ_CTX_new,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c crypto/ocsp/ocsp_http.c
+OSSL_HTTP_REQ_CTX_set1_req,HTTP,3.0.0,3.0+,0,,,,,,crypto/ocsp/ocsp_http.c
+OSSL_HTTP_REQ_CTX_set_expected,HTTP,3.0.0,3.0+,0,,,,,,crypto/http/http_client.c crypto/ocsp/ocsp_http.c
+OSSL_HTTP_REQ_CTX_set_request_line,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c crypto/ocsp/ocsp_http.c
+OSSL_HTTP_close,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c
+OSSL_HTTP_exchange,HTTP,3.0.0,3.0+,0,,,,,,crypto/http/http_client.c
+OSSL_HTTP_is_alive,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c
+OSSL_HTTP_open,HTTP,3.0.0,3.0+,0,,,,,,crypto/http/http_client.c
+OSSL_HTTP_set1_request,HTTP,3.0.0,3.0+,0,,,y,,,crypto/http/http_client.c
+ISSUER_SIGN_TOOL_free,ISSUER,3.0.0,3.0+,0,,,,,,crypto/x509/v3_ist.c
+ISSUER_SIGN_TOOL_new,ISSUER,3.0.0,3.0+,0,,,,,,crypto/x509/v3_ist.c
+NCONF_get0_libctx,NCONF,3.0.0,3.0+,0,,,,,,crypto/evp/evp_cnf.c crypto/provider_conf.c crypto/rand/rand_lib.c
+OCSP_RESPID_match_ex,OCSP,3.0.0,3.0+,0,,,y,,,crypto/ocsp/ocsp_srv.c
+OCSP_RESPID_set_by_key_ex,OCSP,3.0.0,3.0+,0,,,y,,,crypto/ocsp/ocsp_srv.c
+OPENSSL_LH_flush,OPENSSL,3.0.0,3.0+,0,,,,,,crypto/lhash/lhash.c
+OPENSSL_hexstr2buf_ex,OPENSSL,3.0.0,3.0+,0,,,y,,,crypto/ec/ec_print.c crypto/params_from_text.c
+OSSL_parse_url,OSSL,3.0.0,3.0+,0,,,,,,crypto/http/http_lib.c crypto/x509/v3_ncons.c
+OSSL_AA_DIST_POINT_free,OSSL_AA,3.5.0,3.0+,0,,,,,,crypto/x509/v3_crld.c
+OSSL_AA_DIST_POINT_new,OSSL_AA,3.5.0,3.0+,0,,,,,,crypto/x509/v3_crld.c
+OSSL_BASIC_ATTR_CONSTRAINTS_free,OSSL_BASIC,3.4.0,3.0+,0,,,,,,crypto/x509/v3_battcons.c
+OSSL_BASIC_ATTR_CONSTRAINTS_new,OSSL_BASIC,3.4.0,3.0+,0,,,,,,crypto/x509/v3_battcons.c
+OSSL_DECODER_CTX_get_cleanup,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_CTX_get_construct,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_CTX_get_construct_data,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_CTX_set_params,OSSL_DECODER,3.0.0,3.0+,0,,,,,,crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_INSTANCE_get_decoder,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_lib.c crypto/encode_decode/decoder_meth.c crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_INSTANCE_get_decoder_ctx,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_lib.c crypto/encode_decode/decoder_meth.c crypto/encode_decode/decoder_pkey.c
+OSSL_DECODER_INSTANCE_get_input_structure,OSSL_DECODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/decoder_lib.c
+OSSL_DECODER_get0_name,OSSL_DECODER,3.0.0,3.0+,0,,,,,,crypto/encode_decode/decoder_lib.c crypto/encode_decode/decoder_pkey.c
+OSSL_ENCODER_CTX_add_encoder,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_add_extra,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_cleanup,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_construct,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_construct_data,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_output_structure,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_output_type,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_CTX_set_pem_password_cb,OSSL_ENCODER,3.0.0,3.0+,0,,,,,,crypto/pem/pem_local.h crypto/pem/pem_pk8.c
+OSSL_ENCODER_CTX_set_selection,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_INSTANCE_get_encoder,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_lib.c crypto/encode_decode/encoder_meth.c crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_INSTANCE_get_encoder_ctx,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_lib.c crypto/encode_decode/encoder_meth.c crypto/encode_decode/encoder_pkey.c
+OSSL_ENCODER_INSTANCE_get_output_structure,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_lib.c
+OSSL_ENCODER_INSTANCE_get_output_type,OSSL_ENCODER,3.0.0,3.0+,0,,,y,,,crypto/encode_decode/encoder_lib.c
+OSSL_ENCODER_get0_name,OSSL_ENCODER,3.0.0,3.0+,0,,,,,,crypto/encode_decode/encoder_lib.c
+OSSL_ESS_check_signing_certs,OSSL_ESS,3.0.0,3.0+,0,,,,,,crypto/ts/ts_rsp_verify.c
+OSSL_ESS_check_signing_certs_ex,OSSL_ESS,4.0.0,3.0+,0,,,,,,crypto/ess/ess_lib.c
+OSSL_ESS_signing_cert_new_init,OSSL_ESS,3.0.0,3.0+,0,,,,,,crypto/ts/ts_rsp_sign.c
+OSSL_ESS_signing_cert_v2_new_init,OSSL_ESS,3.0.0,3.0+,0,,,,,,crypto/ts/ts_rsp_sign.c
+OSSL_GENERAL_NAMES_print,OSSL_GENERAL,3.4.0,3.0+,0,,,,,,crypto/x509/v3_ac_tgt.c crypto/x509/v3_attrdesc.c crypto/x509/v3_authattid.c crypto/x509/v3_crld.c crypto/x509/v3_rolespec.c
+OSSL_ISSUER_SERIAL_free,OSSL_ISSUER,3.4.0,3.0+,0,,,,,,crypto/x509/x509aset.c
+OSSL_LIB_CTX_set_conf_diagnostics,OSSL_LIB,3.4.0,3.0+,0,,,y,,,crypto/conf/conf_mod.c
+OSSL_OBJECT_DIGEST_INFO_free,OSSL_OBJECT,3.4.0,3.0+,0,,,,,,crypto/x509/x509aset.c
+OSSL_PARAM_BLD_push_long,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/dh/dh_ameth.c crypto/param_build_set.c
+OSSL_PARAM_construct_time_t,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/rand/rand_lib.c
+OSSL_PARAM_get_double,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params_from_text.c
+OSSL_PARAM_get_int32,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params.c
+OSSL_PARAM_get_long,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/dh/dh_backend.c
+OSSL_PARAM_print_to_bio,OSSL_PARAM,3.5.0,3.0+,0,,,,,,crypto/provider_core.c
+OSSL_PARAM_set_int32,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params.c
+OSSL_PARAM_set_int64,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params.c
+OSSL_PARAM_set_long,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/param_build_set.c
+OSSL_PARAM_set_uint32,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params.c
+OSSL_PARAM_set_uint64,OSSL_PARAM,3.0.0,3.0+,0,,,y,,,crypto/params.c
+OSSL_PROVIDER_get0_dispatch,OSSL_PROVIDER,3.0.0,3.0+,0,,,,,,crypto/provider_core.c
+OSSL_PROVIDER_get_conf_parameters,OSSL_PROVIDER,3.5.0,3.0+,0,,,,,,crypto/provider_core.c
+OSSL_PROVIDER_load_ex,OSSL_PROVIDER,3.2.0,3.0+,0,,,y,,,crypto/provider.c
+OSSL_PROVIDER_try_load_ex,OSSL_PROVIDER,3.2.0,3.0+,0,,,,,,crypto/provider.c
+OSSL_STORE_INFO_new_PUBKEY,OSSL_STORE,3.0.0,3.0+,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_INFO_new_SKEY,OSSL_STORE,4.0.0,3.0+,0,,,,,,crypto/store/store_result.c
+OSSL_STORE_LOADER_fetch,OSSL_STORE,3.0.0,3.0+,0,,,y,,,crypto/store/store_lib.c
+PBMAC1PARAM_free,PBMAC1PARAM,3.4.0,3.0+,0,,,,,,crypto/pkcs12/p12_mutl.c
+PBMAC1PARAM_new,PBMAC1PARAM,3.4.0,3.0+,0,,,,,,crypto/pkcs12/p12_mutl.c
+PKCS12_PBE_keyivgen_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/evp/evp_pbe.c crypto/pkcs12/p12_crpt.c
+PKCS12_SAFEBAG_create_pkcs8_encrypt_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_crt.c crypto/pkcs12/p12_sbag.c
+PKCS12_SAFEBAG_create_secret,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_crt.c
+PKCS12_SAFEBAG_get1_cert_ex,PKCS12,3.2.0,3.0+,0,,,,,,crypto/pkcs12/p12_kiss.c
+PKCS12_add_key_ex,PKCS12,3.0.0,3.0+,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_add_safe_ex,PKCS12,3.0.0,3.0+,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_add_safes_ex,PKCS12,3.0.0,3.0+,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_create_ex,PKCS12,3.0.0,3.0+,0,,,y,,,crypto/pkcs12/p12_crt.c
+PKCS12_decrypt_skey_ex,PKCS12,3.0.0,3.0+,0,,,y,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_kiss.c
+PKCS12_item_decrypt_d2i_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_decr.c crypto/pkcs12/p12_p8d.c
+PKCS12_item_i2d_encrypt_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_decr.c crypto/pkcs12/p12_p8e.c
+PKCS12_key_gen_asc_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_key.c
+PKCS12_key_gen_uni_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_key.c
+PKCS12_key_gen_utf8_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_crpt.c crypto/pkcs12/p12_key.c crypto/pkcs12/p12_mutl.c
+PKCS12_pack_p7encdata_ex,PKCS12,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_crt.c crypto/pkcs12/p12_npas.c
+PKCS5_PBE_keyivgen_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/evp/evp_pbe.c crypto/evp/p5_crpt.c
+PKCS5_pbe2_set_iv_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_pbev2.c crypto/pkcs12/p12_add.c crypto/pkcs12/p12_p8e.c
+PKCS5_pbe_set0_algor_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_pbe.c
+PKCS5_pbe_set_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_pbe.c crypto/pkcs12/p12_add.c crypto/pkcs12/p12_p8e.c
+PKCS5_pbkdf2_set_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_pbev2.c crypto/pkcs12/p12_mutl.c
+PKCS5_v2_PBE_keyivgen_ex,PKCS5,3.0.0,3.0+,0,,,,,,crypto/evp/evp_pbe.c crypto/evp/p5_crpt2.c
+PKCS7_get_octet_string,PKCS7,3.0.0,3.0+,0,,,,,,crypto/pkcs7/pk7_doit.c crypto/pkcs7/pk7_lib.c
+PKCS8_decrypt_ex,PKCS8,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_add.c crypto/pkcs12/p12_npas.c crypto/pkcs12/p12_p8d.c
+PKCS8_set0_pbe_ex,PKCS8,3.0.0,3.0+,0,,,,,,crypto/pkcs12/p12_p8e.c
+PEM_write_bio_PrivateKey_ex,PrivateKey,3.0.0,3.0+,0,,,y,,,crypto/pem/pem_pkey.c
+RAND_set1_random_provider,RAND,3.5.0,3.0+,0,,,y,,,crypto/rand/rand_lib.c
+RSA_PSS_PARAMS_dup,RSA,3.0.0,3.0+,0,,,,,,crypto/rsa/rsa_backend.c
+EVP_PBE_scrypt_ex,SCRYPT,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_scrypt.c crypto/evp/pbe_scrypt.c
+PKCS5_v2_scrypt_keyivgen_ex,SCRYPT,3.0.0,3.0+,0,,,,,,crypto/asn1/p5_scrypt.c crypto/evp/evp_pbe.c
+SMIME_read_ASN1_ex,SMIME,3.0.0,3.0+,0,,,,,,crypto/asn1/asn_mime.c crypto/pkcs7/pk7_mime.c
+SMIME_write_ASN1_ex,SMIME,3.0.0,3.0+,0,,,,,,crypto/asn1/asn_mime.c crypto/pkcs7/pk7_mime.c
+BIO_socket_wait,SOCK,3.0.0,3.0+,0,,,y,,,crypto/bio/bio_lib.c crypto/bio/bss_conn.c
+ASN1_item_d2i_fp_ex,STDIO,3.0.0,3.0+,0,,,,,,crypto/asn1/a_d2i_fp.c crypto/pkcs12/p12_utl.c crypto/x509/x_all.c
+PEM_X509_INFO_read_ex,STDIO,3.0.0,3.0+,0,,,,,,crypto/pem/pem_info.c
+PEM_read_PUBKEY_ex,STDIO,3.0.0,3.0+,0,,,,,,crypto/pem/pem_pkey.c
+PEM_read_PrivateKey_ex,STDIO,3.0.0,3.0+,0,,,,,,crypto/pem/pem_pkey.c
+PEM_write_PrivateKey_ex,STDIO,3.0.0,3.0+,0,,,,,,crypto/pem/pem_pkey.c
+TS_RESP_CTX_new_ex,TS,3.0.0,3.0+,0,,,,,,crypto/ts/ts_rsp_sign.c
+X509_ACERT_ISSUER_V2FORM_new,X509,3.4.0,3.0+,0,,,,,,crypto/x509/x509aset.c
+X509_ACERT_add1_attr_by_txt,X509,3.4.0,3.0+,0,,,,,,crypto/x509/x509_acert.c
+X509_ACERT_get_attr_count,X509,3.4.0,3.0+,0,,,,,,crypto/x509/t_acert.c
+X509_ACERT_print_ex,X509,3.4.0,3.0+,0,,,,,,crypto/x509/t_acert.c
+X509_LOOKUP_by_subject_ex,X509,3.0.0,3.0+,0,,,,,,crypto/x509/x509_lu.c
+X509_LOOKUP_ctrl_ex,X509,3.0.0,3.0+,0,,,,,,crypto/x509/x509_lu.c
+X509_PUBKEY_set0_public_key,X509,3.2.0,3.0+,0,,,,,,crypto/x509/x_pubkey.c
+X509_STORE_load_locations_ex,X509,3.0.0,3.0+,0,,,,,,crypto/x509/x509_d2.c
+X509_VERIFY_PARAM_add1_ip,X509,4.0.0,3.0+,0,,,,,,crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_add1_rfc822,X509,4.0.0,3.0+,0,,,y,,,crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_add1_smtputf8,X509,4.0.0,3.0+,0,,,y,,,crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_get0_email,X509,3.0.0,3.0+,0,,,,,,crypto/x509/t_x509.c
+X509_VERIFY_PARAM_get0_host,X509,3.0.0,3.0+,0,,,,,,crypto/x509/t_x509.c
+X509_VERIFY_PARAM_set1_rfc822,X509,4.0.0,3.0+,0,,,y,,,crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_set1_smtputf8,X509,4.0.0,3.0+,0,,,y,,,crypto/x509/x509_vpm.c
+X509_load_cert_crl_file_ex,X509,3.0.0,3.0+,0,,,,,,crypto/x509/by_file.c
+X509_load_cert_file_ex,X509,3.0.0,3.0+,0,,,,,,crypto/x509/by_dir.c crypto/x509/by_file.c
+X509v3_add_extensions,X509V3,3.4.0,3.0+,0,,,,,,crypto/x509/x509_req.c
+X509v3_delete_extension,X509V3,4.0.0,3.0+,0,,,,,,crypto/ocsp/ocsp_ext.c crypto/ts/ts_req_utils.c crypto/ts/ts_rsp_utils.c crypto/x509/x509_ext.c
+b2i_PVK_bio_ex,b2i,3.0.0,3.0+,0,,,,,,crypto/pem/pvkfmt.c

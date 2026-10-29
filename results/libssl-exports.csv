@@ -1,0 +1,124 @@
+symbol,family,introduced,era,users,user,internal_callers,test,pair_used,asn1_partial,successor,crypto_files,plan
+ASN1_STRING_get_length,ASN1,4.1.0,3.0+,0,,"ssl,apps",y,,,header: use instead of ASN1_STRING_length; renamed from ASN1_STRING_length,29,
+ASYNC_WAIT_CTX_get_changed_fds,ASYNC,1.1.0,pre-3.0,1,qatengine,ssl,y,,,,1,
+ASYNC_WAIT_CTX_get_status,ASYNC,3.0.0,3.0+,0,,ssl,y,,,,1,
+ASYNC_WAIT_CTX_set_callback,ASYNC,3.0.0,3.0+,1,qatengine,ssl,y,,,,1,
+BIO_ADDR_clear,SOCK,1.1.0,pre-3.0,1,scamper,ssl,y,,,,2,
+BIO_ADDR_copy,SOCK,3.2.0,3.0+,0,,ssl,y,,,,2,
+BIO_closesocket,SOCK,1.1.0,pre-3.0,0,,"ssl,apps",y,,,,6,
+BIO_dgram_is_sctp,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+BIO_dgram_sctp_msg_waiting,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+BIO_dgram_sctp_wait_for_dry,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+BIO_err_is_non_fatal,SOCK,3.2.0,3.0+,1,scamper,ssl,,,,,1,
+BIO_f_brotli,COMP,3.2.0,3.0+,1,node,"ssl,apps",y,,,,1,
+BIO_f_zlib,COMP,1.0.2-or-earlier,pre-3.0,1,node,"ssl,apps",y,,,,2,
+BIO_f_zstd,COMP,3.2.0,3.0+,1,node,"ssl,apps",y,,,,1,
+BIO_fd_non_fatal_error,BIO,1.0.2-or-earlier,pre-3.0,1,brpc,ssl,y,,,,1,
+BIO_get_rpoll_descriptor,BIO,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private"
+BIO_get_wpoll_descriptor,BIO,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private"
+BIO_recvmmsg,BIO,3.2.0,3.0+,1,scamper,ssl,y,,,,4,
+BIO_s_datagram,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,1,
+BIO_sendmmsg,BIO,3.2.0,3.0+,1,scamper,ssl,y,,,,5,
+BIO_set_tcp_ndelay,SOCK,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps",y,,,,1,
+BIO_socket,SOCK,1.1.0,pre-3.0,0,,"ssl,apps",y,,,,4,
+BIO_socket_nbio,SOCK,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps",y,,,,3,
+BIO_socket_ready,SOCK,4.1.0,3.0+,0,,ssl,y,,,,1,
+BUF_reverse,BUF,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers",,,,,1,"deprecate 4.2, make private"
+COMP_CTX_free,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,
+COMP_CTX_get_method,COMP,1.1.0,pre-3.0,0,,ssl,,,,,1,
+COMP_CTX_new,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,
+COMP_brotli_oneshot,COMP,3.2.0,3.0+,0,,ssl,,,,,1,
+COMP_compress_block,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,
+COMP_expand_block,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,
+COMP_get_name,COMP,1.1.0,pre-3.0,1,stunnel,ssl,,,,,2,
+COMP_zlib_oneshot,COMP,3.2.0,3.0+,0,,ssl,,,,,1,
+COMP_zstd_oneshot,COMP,3.2.0,3.0+,0,,ssl,,,,,1,
+CONF_parse_list,CONF,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,4,
+CRYPTO_dup_ex_data,CRYPTO,1.0.2-or-earlier,pre-3.0,1,qatengine,ssl,y,,,,8,
+CTLOG_STORE_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CTLOG_STORE_load_default_file,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CTLOG_STORE_load_file,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CTLOG_STORE_new_ex,CT,3.0.0,3.0+,0,,ssl,,,,_ex form of CTLOG_STORE_new,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_new_ex,CT,3.0.0,3.0+,0,,ssl,,,,_ex form of CT_POLICY_EVAL_CTX_new,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_set1_cert,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_set1_issuer,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_set_shared_CTLOG_STORE,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+CT_POLICY_EVAL_CTX_set_time,CT,1.1.1,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+ERR_clear_last_mark,ERR,1.1.1,pre-3.0,1,qatengine,"ssl,apps,providers",y,,,,35,
+ERR_count_to_mark,ERR,3.2.0,3.0+,0,,"ssl,providers",y,,,,6,"deprecate 4.2, make private"
+ERR_vset_error,ERR,3.0.0,3.0+,0,,"ssl,providers",,,,,2,"deprecate 4.2, make private"
+EVP_CIPHER_CTX_get_tag_length,EVP_CIPHER,3.0.0,3.0+,1,kitty,ssl,y,,,renamed from EVP_CIPHER_CTX_tag_length,3,
+EVP_CIPHER_get0_provider,EVP_CIPHER,3.0.0,3.0+,0,,"ssl,apps",,,,,3,
+EVP_CIPHER_get_params,EVP_CIPHER,3.0.0,3.0+,0,,ssl,y,,,,1,
+EVP_CIPHER_is_a,EVP_CIPHER,3.0.0,3.0+,0,,"ssl,apps,providers",y,,,,1,
+EVP_CIPHER_up_ref,EVP_CIPHER,3.0.0,3.0+,1,ruby,"ssl,apps,providers",y,,,,3,
+EVP_KEYEXCH_fetch,EVP_KEYEXCH,3.0.0,3.0+,1,qatengine,ssl,,,,,1,
+EVP_KEYEXCH_free,EVP_KEYEXCH,3.0.0,3.0+,1,qatengine,"ssl,apps",,,,,2,
+EVP_KEYMGMT_get0_provider,EVP_KEYMGMT,3.0.0,3.0+,1,openvpn,"ssl,apps",y,,,,13,
+EVP_MD_CTX_ctrl,EVP_MD,1.1.0,pre-3.0,0,,ssl,,,,,1,
+EVP_PKEY_can_sign,EVP_PKEY,3.0.0,3.0+,0,,ssl,y,,,,1,
+EVP_PKEY_digestsign_supports_digest,EVP_PKEY,3.0.0,3.0+,0,,ssl,,,,,1,
+EVP_PKEY_param_check_quick,EVP_PKEY,3.0.0,3.0+,0,,ssl,y,,,,1,
+EVP_Q_mac,EVP_Q,3.0.0,3.0+,1,erlang,"ssl,apps,providers",y,,,,4,
+OBJ_add_sigid,OBJ,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,2,"deprecate 4.2, make private"
+OCSP_RESPID_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,0,
+OCSP_SINGLERESP_get1_ext_d2i,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,
+OPENSSL_DIR_end,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers,fuzz",,,,,2,
+OPENSSL_DIR_read,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers,fuzz",,,,,2,
+OPENSSL_strncasecmp,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers",,,,,5,
+OPENSSL_strnlen,OPENSSL,1.1.0,pre-3.0,0,,"ssl,fuzz",y,,,,3,
+OPENSSL_strtoul,OPENSSL,3.4.0,3.0+,0,,"ssl,apps",y,,,doc man3/OPENSSL_malloc.pod with deprecated CRYPTO_mem_ctrl,2,
+OSSL_ERR_STATE_free,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,1,"deprecate 4.2, make private"
+OSSL_ERR_STATE_new,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,2,"deprecate 4.2, make private"
+OSSL_ERR_STATE_restore,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,1,"deprecate 4.2, make private"
+OSSL_ERR_STATE_save,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,1,"deprecate 4.2, make private"
+OSSL_ERR_STATE_save_to_mark,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,1,"deprecate 4.2, make private"
+OSSL_HPKE_CTX_free,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_CTX_new,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_CTX_set_seq,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_decap,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_encap,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_get_ciphertext_size,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_get_grease_value,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_get_public_encap_size,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_keygen,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_open,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_seal,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_HPKE_str2suite,OSSL_HPKE,3.2.0,3.0+,0,,"ssl,apps",y,,,,2,
+OSSL_HPKE_suite_check,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,
+OSSL_LIB_CTX_get_conf_diagnostics,OSSL_LIB,3.4.0,3.0+,0,,ssl,y,,,,2,
+OSSL_LIB_CTX_get_data,OSSL_LIB,3.4.0,3.0+,0,,ssl,,,,,1,
+OSSL_PARAM_construct_octet_ptr,OSSL_PARAM,3.0.0,3.0+,1,s390-tools,ssl,y,,,,8,
+OSSL_PARAM_get_uint32,OSSL_PARAM,3.0.0,3.0+,1,tpm2-openssl,"ssl,providers",y,,,,1,
+OSSL_PARAM_get_uint64,OSSL_PARAM,3.0.0,3.0+,0,,"ssl,apps,providers",y,,,,2,
+OSSL_PROVIDER_get_capabilities,OSSL_PROVIDER,3.0.0,3.0+,1,s390-tools,"ssl,apps",y,,,,1,
+OSSL_STACK_OF_X509_free,OSSL_STACK,3.2.0,3.0+,0,,"ssl,apps,fuzz",y,,,,16,
+OSSL_STORE_INFO_get0_NAME,OSSL_STORE,1.1.1,pre-3.0,0,,"ssl,apps",y,,,,2,
+OSSL_sleep,OSSL,3.2.0,3.0+,0,,"ssl,apps",y,,,,3,
+SCT_LIST_free,CT,1.1.0,pre-3.0,0,,"ssl,fuzz",y,,,,3,"CT: deprecate 4.2, remove 5.0"
+SCT_LIST_validate,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"
+SCT_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,3,"CT: deprecate 4.2, remove 5.0"
+SCT_get_validation_status,CT,1.1.0,pre-3.0,0,,ssl,y,,,,2,"CT: deprecate 4.2, remove 5.0"
+SCT_set_source,CT,1.1.0,pre-3.0,0,,ssl,,,,,2,"CT: deprecate 4.2, remove 5.0"
+X509_LOOKUP_store,X509,3.0.0,3.0+,0,,"ssl,apps",,,,,2,
+X509_STORE_CTX_init_rpk,X509,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private"
+X509_STORE_CTX_set_ocsp_resp,OCSP,3.6.0,3.0+,0,,ssl,y,,,,1,
+X509_STORE_load_file_ex,X509,3.0.0,3.0+,0,,ssl,,,,_ex form of X509_STORE_load_file,1,
+X509_STORE_load_store_ex,X509,3.0.0,3.0+,0,,ssl,,,,_ex form of X509_STORE_load_store,1,
+X509_VERIFY_PARAM_add1_ip_asc,X509,4.0.0,3.0+,0,,ssl,y,,,,1,
+X509_VERIFY_PARAM_get0_peername,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+X509_VERIFY_PARAM_get1_ip_asc,X509,3.0.0,3.0+,0,,ssl,,,,,2,
+X509_VERIFY_PARAM_move_peername,X509,1.1.0,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+X509_chain_check_suiteb,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,2,"deprecate 4.2, make private"
+X509_self_signed,X509,3.0.0,3.0+,0,,ssl,y,,,,3,
+conf_ssl_get,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+conf_ssl_get_cmd,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+conf_ssl_name_find,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private"
+d2i_OCSP_RESPID,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,
+d2i_PUBKEY_ex,PUBKEY,3.0.0,3.0+,1,libxmlsec1,ssl,y,,,_ex form of d2i_PUBKEY,4,
+d2i_PrivateKey_ex,PrivateKey,3.0.0,3.0+,0,,ssl,y,,,_ex form of d2i_PrivateKey,2,
+d2i_X509_EXTENSIONS,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,
+i2d_OCSP_RESPID,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,
+i2d_X509_EXTENSIONS,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,
+o2i_SCT_LIST,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0"

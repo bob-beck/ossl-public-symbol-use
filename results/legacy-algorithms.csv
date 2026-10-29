@@ -1,0 +1,159 @@
+symbol,family,api,deprecated_in,users,user_list
+EVP_bf_cbc,BF,evp-getter,,34,
+EVP_bf_cfb64,BF,evp-getter,,16,
+EVP_bf_ecb,BF,evp-getter,,10,epic5 erlang libpq postgresql qca xrootd boxbackup hexchat qca2 r-cran-pki
+EVP_bf_ofb,BF,evp-getter,,6,erlang qca boxbackup qca2 r-cran-pki kc
+BF_set_key,BF,low-level,3.0,28,
+BF_cbc_encrypt,BF,low-level,3.0,8,ettercap john-jumbo root strongswan znc dsniff ossec-hids resiprocate-resiprocate
+BF_ecb_encrypt,BF,low-level,3.0,7,ffmpeg john-jumbo strongswan qt6-webengine wvstreams iridium-browser ossec-hids
+BF_cfb64_encrypt,BF,low-level,3.0,6,john-jumbo strongswan znc thc-ipv6 wvstreams ossec-hids
+BF_encrypt,BF,low-level,3.0,4,pwsafe strongswan proftpd-dfsg ossec-hids
+BF_decrypt,BF,low-level,3.0,3,pwsafe strongswan ossec-hids
+BF_ofb64_encrypt,BF,low-level,3.0,2,strongswan ossec-hids
+BF_options,BF,low-level,3.0,2,strongswan ossec-hids
+EVP_cast5_cbc,CAST,evp-getter,,14,
+EVP_cast5_cfb64,CAST,evp-getter,,4,opensc qca qca2 opmsg
+EVP_cast5_ecb,CAST,evp-getter,,4,libpq postgresql qca qca2
+EVP_cast5_ofb,CAST,evp-getter,,2,qca qca2
+CAST_ecb_encrypt,CAST,low-level,3.0,5,ffmpeg john-jumbo qt6-webengine iridium-browser netpgp
+CAST_set_key,CAST,low-level,3.0,5,ffmpeg john-jumbo qt6-webengine iridium-browser netpgp
+CAST_cfb64_encrypt,CAST,low-level,3.0,2,john-jumbo netpgp
+CAST_cbc_encrypt,CAST,low-level,3.0,0,
+CAST_decrypt,CAST,low-level,3.0,0,
+CAST_encrypt,CAST,low-level,3.0,0,
+CAST_ofb64_encrypt,CAST,low-level,3.0,0,
+EVP_des_ede3_cbc,DES,evp-getter,,77,
+EVP_des_cbc,DES,evp-getter,,32,
+EVP_des_ecb,DES,evp-getter,,20,
+EVP_des_ede3_ecb,DES,evp-getter,,10,apr-util libpq libtpms postgresql softhsm xml-security-c yubico-piv-tool ceph dpdk softhsm2
+EVP_des_ede_cbc,DES,evp-getter,,8,node opensc softhsm ceph dpdk globalplatform openpace softhsm2
+EVP_des_ede3_cfb64,DES,evp-getter,,7,dotnet libtpms softhsm x11vnc condor softhsm2 ssvnc
+EVP_des_ede3,DES,evp-getter,,5,dotnet libtpms qca xml-security-c qca2
+EVP_des_ofb,DES,evp-getter,,5,qca softhsm qca2 softhsm2 trousers
+EVP_des_cfb64,DES,evp-getter,,4,qca softhsm qca2 softhsm2
+EVP_des_ede,DES,evp-getter,,4,node qca globalplatform qca2
+EVP_des_ede3_ofb,DES,evp-getter,,4,libtpms softhsm softhsm2 trousers
+EVP_des_ede_ecb,DES,evp-getter,,3,opensc softhsm softhsm2
+EVP_des_cfb8,DES,evp-getter,,2,dotnet erlang
+EVP_des_ede3_cfb8,DES,evp-getter,,2,dotnet erlang
+EVP_des_ede_cfb64,DES,evp-getter,,2,softhsm softhsm2
+EVP_des_ede_ofb,DES,evp-getter,,2,softhsm softhsm2
+EVP_desx_cbc,DES,evp-getter,,1,movgrab
+EVP_des_cfb1,DES,evp-getter,,0,
+EVP_des_ede3_cfb1,DES,evp-getter,,0,
+EVP_des_ede3_wrap,DES,evp-getter,,0,
+DES_set_key,DES,low-level,3.0,42,
+DES_ecb_encrypt,DES,low-level,3.0,41,
+DES_set_odd_parity,DES,low-level,3.0,39,
+DES_set_key_unchecked,DES,low-level,3.0,28,
+DES_ede3_cbc_encrypt,DES,low-level,3.0,20,
+DES_ncbc_encrypt,DES,low-level,3.0,10,ettercap hydra john-jumbo mfterm net-snmp cardpeek fqterm growl-for-linux libica qterm
+DES_ecb3_encrypt,DES,low-level,3.0,9,heimdal libtpms net-snmp opensc samba cardpeek libica wvstreams netpgp
+DES_cbc_encrypt,DES,low-level,3.0,8,cyrus-sasl heimdal john-jumbo net-snmp opensc samba cyrus-sasl2 grisbi
+DES_key_sched,DES,low-level,3.0,8,cyrus-sasl heimdal hydra john-jumbo net-snmp samba cyrus-sasl2 tsdecrypt
+DES_random_key,DES,low-level,3.0,8,heimdal libfreefare libtpms net-snmp samba virtuoso tsdecrypt virtuoso-opensource
+DES_set_key_checked,DES,low-level,3.0,8,heimdal libtpms net-snmp ophcrack samba virtuoso nodau virtuoso-opensource
+DES_crypt,DES,low-level,3.0,7,john-jumbo net-snmp openssh globus-gridftp-server jabberd2 myproxy openssh-ssh1
+DES_string_to_key,DES,low-level,3.0,6,heimdal john-jumbo net-snmp samba grisbi lua-luaossl
+DES_cbc_cksum,DES,low-level,3.0,4,heimdal john-jumbo net-snmp samba
+DES_cfb64_encrypt,DES,low-level,3.0,4,heimdal net-snmp samba nodau
+DES_ede3_cfb64_encrypt,DES,low-level,3.0,4,john-jumbo net-snmp wvstreams netpgp
+DES_encrypt1,DES,low-level,3.0,4,john-jumbo net-snmp opensc ppp
+DES_is_weak_key,DES,low-level,3.0,4,heimdal net-snmp samba yubico-piv-tool
+DES_pcbc_encrypt,DES,low-level,3.0,4,heimdal john-jumbo net-snmp samba
+DES_check_key_parity,DES,low-level,3.0,3,heimdal net-snmp samba
+DES_encrypt3,DES,low-level,3.0,3,net-snmp opensc proftpd-dfsg
+DES_string_to_2keys,DES,low-level,3.0,3,gwenhywfar net-snmp libgwenhywfar
+DES_cfb_encrypt,DES,low-level,3.0,1,net-snmp
+DES_decrypt3,DES,low-level,3.0,1,net-snmp
+DES_ede3_cfb_encrypt,DES,low-level,3.0,1,net-snmp
+DES_ede3_ofb64_encrypt,DES,low-level,3.0,1,net-snmp
+DES_encrypt2,DES,low-level,3.0,1,net-snmp
+DES_fcrypt,DES,low-level,3.0,1,net-snmp
+DES_ofb64_encrypt,DES,low-level,3.0,1,net-snmp
+DES_ofb_encrypt,DES,low-level,3.0,1,net-snmp
+DES_options,DES,low-level,3.0,1,net-snmp
+DES_quad_cksum,DES,low-level,3.0,1,net-snmp
+DES_xcbc_encrypt,DES,low-level,3.0,1,net-snmp
+EVP_idea_cbc,IDEA,evp-getter,,1,movgrab
+EVP_idea_cfb64,IDEA,evp-getter,,0,
+EVP_idea_ecb,IDEA,evp-getter,,0,
+EVP_idea_ofb,IDEA,evp-getter,,0,
+IDEA_ecb_encrypt,IDEA,low-level,3.0,3,pixiewps sagittarius-scheme netpgp
+IDEA_cfb64_encrypt,IDEA,low-level,3.0,1,netpgp
+IDEA_set_decrypt_key,IDEA,low-level,3.0,1,netpgp
+IDEA_set_encrypt_key,IDEA,low-level,3.0,1,netpgp
+IDEA_cbc_encrypt,IDEA,low-level,3.0,0,
+IDEA_encrypt,IDEA,low-level,3.0,0,
+IDEA_ofb64_encrypt,IDEA,low-level,3.0,0,
+IDEA_options,IDEA,low-level,3.0,0,
+EVP_rc2_cbc,RC2,evp-getter,,12,
+EVP_rc2_40_cbc,RC2,evp-getter,,9,heimdal php ruby samba bully php8.4 ruby3.3 wpa wpa_supplicant
+EVP_rc2_64_cbc,RC2,evp-getter,,4,heimdal php samba php8.4
+EVP_rc2_ecb,RC2,evp-getter,,4,dotnet bully wpa wpa_supplicant
+EVP_rc2_cfb64,RC2,evp-getter,,0,
+EVP_rc2_ofb,RC2,evp-getter,,0,
+RC2_cbc_encrypt,RC2,low-level,3.0,3,heimdal john-jumbo samba
+RC2_set_key,RC2,low-level,3.0,3,heimdal john-jumbo samba
+RC2_cfb64_encrypt,RC2,low-level,3.0,0,
+RC2_decrypt,RC2,low-level,3.0,0,
+RC2_ecb_encrypt,RC2,low-level,3.0,0,
+RC2_encrypt,RC2,low-level,3.0,0,
+RC2_ofb64_encrypt,RC2,low-level,3.0,0,
+EVP_rc4,RC4,evp-getter,,34,
+EVP_rc4_40,RC4,evp-getter,,2,heimdal samba
+EVP_rc4_hmac_md5,RC4,evp-getter,,0,
+RC4,RC4,low-level,3.0,34,
+RC4_set_key,RC4,low-level,3.0,22,
+RC4_options,RC4,low-level,3.0,0,
+EVP_rc5_32_12_16_cbc,RC5,evp-getter,,1,kannel
+EVP_rc5_32_12_16_cfb64,RC5,evp-getter,,0,
+EVP_rc5_32_12_16_ecb,RC5,evp-getter,,0,
+EVP_rc5_32_12_16_ofb,RC5,evp-getter,,0,
+RC5_32_cbc_encrypt,RC5,low-level,3.0,0,
+RC5_32_cfb64_encrypt,RC5,low-level,3.0,0,
+RC5_32_decrypt,RC5,low-level,3.0,0,
+RC5_32_ecb_encrypt,RC5,low-level,3.0,0,
+RC5_32_encrypt,RC5,low-level,3.0,0,
+RC5_32_ofb64_encrypt,RC5,low-level,3.0,0,
+RC5_32_set_key,RC5,low-level,3.0,0,
+EVP_seed_cbc,SEED,evp-getter,,0,
+EVP_seed_cfb128,SEED,evp-getter,,0,
+EVP_seed_ecb,SEED,evp-getter,,0,
+EVP_seed_ofb,SEED,evp-getter,,0,
+SEED_cbc_encrypt,SEED,low-level,3.0,0,
+SEED_cfb128_encrypt,SEED,low-level,3.0,0,
+SEED_decrypt,SEED,low-level,3.0,0,
+SEED_ecb_encrypt,SEED,low-level,3.0,0,
+SEED_encrypt,SEED,low-level,3.0,0,
+SEED_ofb128_encrypt,SEED,low-level,3.0,0,
+SEED_set_key,SEED,low-level,3.0,0,
+EVP_md2,MD2,evp-getter,,7,openldap php qca swi-prolog ipmiutil php8.4 qca2
+MD2,MD2,low-level,3.0,12,
+MD2_Final,MD2,low-level,3.0,5,argyll-cms ipmitool argyll openhpi tcltrf
+MD2_Init,MD2,low-level,3.0,5,argyll-cms ipmitool argyll openhpi tcltrf
+MD2_Update,MD2,low-level,3.0,5,argyll-cms ipmitool argyll openhpi tcltrf
+MD2_options,MD2,low-level,3.0,1,tcltrf
+EVP_md4,MD4,evp-getter,,26,
+MD4_Final,MD4,low-level,3.0,35,
+MD4_Init,MD4,low-level,3.0,35,
+MD4_Update,MD4,low-level,3.0,35,
+MD4,MD4,low-level,3.0,21,
+MD4_Transform,MD4,low-level,3.0,2,freeradius-server freeradius
+EVP_mdc2,MDC2,evp-getter,,0,
+MDC2,MDC2,low-level,3.0,1,linux
+MDC2_Final,MDC2,low-level,3.0,0,
+MDC2_Init,MDC2,low-level,3.0,0,
+MDC2_Update,MDC2,low-level,3.0,0,
+EVP_ripemd160,RMD160,evp-getter,,31,
+RIPEMD160,RMD160,low-level,3.0,11,
+RIPEMD160_Final,RMD160,low-level,3.0,8,erlang john-jumbo md5sha1sum cmake gnutls28 xymon gnutls libarchive
+RIPEMD160_Init,RMD160,low-level,3.0,8,erlang john-jumbo md5sha1sum cmake gnutls28 xymon gnutls libarchive
+RIPEMD160_Update,RMD160,low-level,3.0,8,erlang john-jumbo md5sha1sum cmake gnutls28 xymon gnutls libarchive
+RIPEMD160_Transform,RMD160,low-level,3.0,0,
+EVP_whirlpool,WHIRLPOOL,evp-getter,,2,qca qca2
+WHIRLPOOL,WHIRLPOOL,low-level,3.0,2,john-jumbo rhash
+WHIRLPOOL_Final,WHIRLPOOL,low-level,3.0,1,john-jumbo
+WHIRLPOOL_Init,WHIRLPOOL,low-level,3.0,1,john-jumbo
+WHIRLPOOL_Update,WHIRLPOOL,low-level,3.0,1,john-jumbo
+WHIRLPOOL_BitUpdate,WHIRLPOOL,low-level,3.0,0,

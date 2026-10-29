@@ -1,0 +1,101 @@
+symbol,family,introduced,era,users,user,internal_callers,test,pair_used,asn1_partial,successor,crypto_files,plan,share,reason,source
+BIO_err_is_non_fatal,SOCK,3.2.0,3.0+,1,scamper,ssl,,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_lib.c
+BIO_get_rpoll_descriptor,BIO,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_lib.c
+BIO_get_wpoll_descriptor,BIO,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_lib.c
+BIO_set_tcp_ndelay,SOCK,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps",y,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_sock.c
+BIO_socket_nbio,SOCK,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps",y,,,,3,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_sock.c
+BIO_socket_ready,SOCK,4.1.0,3.0+,0,,ssl,y,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_sock.c
+BIO_closesocket,SOCK,1.1.0,pre-3.0,0,,"ssl,apps",y,,,,6,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_sock2.c
+BIO_socket,SOCK,1.1.0,pre-3.0,0,,"ssl,apps",y,,,,4,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bio_sock2.c
+BIO_dgram_is_sctp,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/bio/bss_dgram.c
+BIO_dgram_sctp_msg_waiting,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/bio/bss_dgram.c
+BIO_dgram_sctp_wait_for_dry,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/bio/bss_dgram.c
+BIO_s_datagram,DGRAM,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bss_dgram.c
+BIO_fd_non_fatal_error,BIO,1.0.2-or-earlier,pre-3.0,1,brpc,ssl,y,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/bio/bss_fd.c
+BUF_reverse,BUF,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers",,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/buffer/buffer.c
+CONF_parse_list,CONF,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,4,,copy,"stateless, 1 functions; internal calls: ",crypto/conf/conf_mod.c
+conf_ssl_get_cmd,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/conf/conf_ssl.c
+SCT_LIST_free,CT,1.1.0,pre-3.0,0,,"ssl,fuzz",y,,,,3,"CT: deprecate 4.2, remove 5.0",copy,"stateless, 1 functions; internal calls: ",crypto/ct/ct_sct.c
+SCT_LIST_validate,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy,"stateless, 1 functions; internal calls: ",crypto/ct/ct_sct.c
+OSSL_ERR_STATE_free,OSSL_ERR,3.2.0,3.0+,0,,ssl,y,,,,1,"deprecate 4.2, make private",copy,"stateless, 1 functions; internal calls: ",crypto/err/err.c
+EVP_Q_mac,EVP_Q,3.0.0,3.0+,1,erlang,"ssl,apps,providers",y,,,,4,,copy,"stateless, 1 functions; internal calls: ",crypto/evp/mac_lib.c
+EVP_PKEY_digestsign_supports_digest,EVP_PKEY,3.0.0,3.0+,0,,ssl,,,,,1,,copy,"stateless, 1 functions; internal calls: ",crypto/evp/p_lib.c
+OSSL_HPKE_suite_check,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy,"stateless, 5 functions; internal calls: ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OPENSSL_strncasecmp,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers",,,,,5,,copy,"stateless, 3 functions; internal calls: ossl_toascii ossl_tolower",crypto/o_str.c
+OPENSSL_strnlen,OPENSSL,1.1.0,pre-3.0,0,,"ssl,fuzz",y,,,,3,,copy,"stateless, 1 functions; internal calls: ",crypto/o_str.c
+OPENSSL_strtoul,OPENSSL,3.4.0,3.0+,0,,"ssl,apps",y,,,doc man3/OPENSSL_malloc.pod with deprecated CRYPTO_mem_ctrl,2,,copy,"stateless, 1 functions; internal calls: ",crypto/o_str.c
+OSSL_PARAM_construct_octet_ptr,OSSL_PARAM,3.0.0,3.0+,1,s390-tools,ssl,y,,,,8,,copy,"stateless, 2 functions; internal calls: ",crypto/params.c
+OSSL_PARAM_get_uint32,OSSL_PARAM,3.0.0,3.0+,1,tpm2-openssl,"ssl,providers",y,,,,1,,copy,"stateless, 7 functions; internal calls: ",crypto/params.c
+OSSL_PARAM_get_uint64,OSSL_PARAM,3.0.0,3.0+,0,,"ssl,apps,providers",y,,,,2,,copy,"stateless, 7 functions; internal calls: ",crypto/params.c
+OSSL_sleep,OSSL,3.2.0,3.0+,0,,"ssl,apps",y,,,,3,,copy,"stateless, 4 functions; internal calls: ossl_time_now",crypto/sleep.c
+X509_LOOKUP_store,X509,3.0.0,3.0+,0,,"ssl,apps",,,,,2,,copy,"stateless, 1 functions; internal calls: ",crypto/x509/by_store.c
+OSSL_STACK_OF_X509_free,OSSL_STACK,3.2.0,3.0+,0,,"ssl,apps,fuzz",y,,,,16,,copy,"stateless, 1 functions; internal calls: ",crypto/x509/t_x509.c
+X509_chain_check_suiteb,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,2,"deprecate 4.2, make private",copy,"stateless, 2 functions; internal calls: ",crypto/x509/x509_cmp.c
+X509_STORE_load_file_ex,X509,3.0.0,3.0+,0,,ssl,,,,_ex form of X509_STORE_load_file,1,,copy,"stateless, 1 functions; internal calls: ",crypto/x509/x509_d2.c
+X509_STORE_load_store_ex,X509,3.0.0,3.0+,0,,ssl,,,,_ex form of X509_STORE_load_store,1,,copy,"stateless, 2 functions; internal calls: X509_LOOKUP_store",crypto/x509/x509_d2.c
+X509_VERIFY_PARAM_add1_ip_asc,X509,4.0.0,3.0+,0,,ssl,y,,,,1,,copy,"stateless, 9 functions; internal calls: CONF_parse_list ossl_a2i_ipadd ossl_isdigit ossl_toascii",crypto/x509/x509_vpm.c
+OCSP_RESPID_free,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,y,,,,0,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+OPENSSL_DIR_end,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers,fuzz",,,,,2,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+OPENSSL_DIR_read,OPENSSL,1.0.2-or-earlier,pre-3.0,0,,"ssl,apps,providers,fuzz",,,,,2,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+d2i_OCSP_RESPID,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+d2i_X509_EXTENSIONS,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+i2d_OCSP_RESPID,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+i2d_X509_EXTENSIONS,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,0,,copy-generated,not written out: macro-generated (ASN.1 functions call the public ASN1_item_* with an exported ITEM) or defined in an #included .c,
+ASN1_STRING_get_length,ASN1,4.1.0,3.0+,0,,"ssl,apps",y,,,header: use instead of ASN1_STRING_length; renamed from ASN1_STRING_length,29,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/asn1/asn1_lib.c
+ASYNC_WAIT_CTX_get_changed_fds,ASYNC,1.1.0,pre-3.0,1,qatengine,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/async/async_wait.c
+ASYNC_WAIT_CTX_get_status,ASYNC,3.0.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/async/async_wait.c
+ASYNC_WAIT_CTX_set_callback,ASYNC,3.0.0,3.0+,1,qatengine,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/async/async_wait.c
+BIO_ADDR_clear,SOCK,1.1.0,pre-3.0,1,scamper,ssl,y,,,,2,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/bio/bio_addr.c
+BIO_ADDR_copy,SOCK,3.2.0,3.0+,0,,ssl,y,,,,2,,copy-layout,"stateless, 3 functions, reads libcrypto struct fields; internal calls: BIO_ADDR_clear BIO_ADDR_make",crypto/bio/bio_addr.c
+BIO_recvmmsg,BIO,3.2.0,3.0+,1,scamper,ssl,y,,,,4,,copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: ",crypto/bio/bio_lib.c
+BIO_sendmmsg,BIO,3.2.0,3.0+,1,scamper,ssl,y,,,,5,,copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: ",crypto/bio/bio_lib.c
+COMP_CTX_free,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+COMP_CTX_get_method,COMP,1.1.0,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+COMP_CTX_new,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+COMP_compress_block,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+COMP_expand_block,COMP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+COMP_get_name,COMP,1.1.0,pre-3.0,1,stunnel,ssl,,,,,2,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/comp/comp_lib.c
+conf_ssl_get,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/conf/conf_ssl.c
+conf_ssl_name_find,conf,1.1.1,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/conf/conf_ssl.c
+CTLOG_STORE_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_log.c
+CTLOG_STORE_load_default_file,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: CONF_parse_list CTLOG_STORE_load_file ossl_safe_getenv",crypto/ct/ct_log.c
+CTLOG_STORE_load_file,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 4 functions, reads libcrypto struct fields; internal calls: CONF_parse_list",crypto/ct/ct_log.c
+CTLOG_STORE_new_ex,CT,3.0.0,3.0+,0,,ssl,,,,_ex form of CTLOG_STORE_new,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: CTLOG_STORE_free",crypto/ct/ct_log.c
+o2i_SCT_LIST,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 3 functions, reads libcrypto struct fields; internal calls: SCT_LIST_free SCT_free",crypto/ct/ct_oct.c
+CT_POLICY_EVAL_CTX_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_policy.c
+CT_POLICY_EVAL_CTX_new_ex,CT,3.0.0,3.0+,0,,ssl,,,,_ex form of CT_POLICY_EVAL_CTX_new,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: ossl_time_now",crypto/ct/ct_policy.c
+CT_POLICY_EVAL_CTX_set1_cert,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_policy.c
+CT_POLICY_EVAL_CTX_set1_issuer,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_policy.c
+CT_POLICY_EVAL_CTX_set_shared_CTLOG_STORE,CT,1.1.0,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_policy.c
+CT_POLICY_EVAL_CTX_set_time,CT,1.1.1,pre-3.0,0,,ssl,y,,,,1,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_policy.c
+SCT_free,CT,1.1.0,pre-3.0,0,,ssl,y,,,,3,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_sct.c
+SCT_get_validation_status,CT,1.1.0,pre-3.0,0,,ssl,y,,,,2,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_sct.c
+SCT_set_source,CT,1.1.0,pre-3.0,0,,ssl,,,,,2,"CT: deprecate 4.2, remove 5.0",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ct/ct_sct.c
+EVP_MD_CTX_ctrl,EVP_MD,1.1.0,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/digest.c
+EVP_CIPHER_get_params,EVP_CIPHER,3.0.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/evp_enc.c
+EVP_CIPHER_up_ref,EVP_CIPHER,3.0.0,3.0+,1,ruby,"ssl,apps,providers",y,,,,3,,copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/evp_enc.c
+EVP_CIPHER_CTX_get_tag_length,EVP_CIPHER,3.0.0,3.0+,1,kitty,ssl,y,,,renamed from EVP_CIPHER_CTX_tag_length,3,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/evp_lib.c
+EVP_CIPHER_get0_provider,EVP_CIPHER,3.0.0,3.0+,0,,"ssl,apps",,,,,3,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/evp_lib.c
+EVP_KEYMGMT_get0_provider,EVP_KEYMGMT,3.0.0,3.0+,1,openvpn,"ssl,apps",y,,,,13,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/evp/keymgmt_meth.c
+EVP_PKEY_can_sign,EVP_PKEY,3.0.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 4 functions, reads libcrypto struct fields; internal calls: EVP_KEYMGMT_get0_provider evp_keymgmt_util_query_operation_name ossl_provider_libctx",crypto/evp/p_lib.c
+OSSL_HPKE_CTX_free,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/hpke/hpke.c
+OSSL_HPKE_CTX_new,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OSSL_HPKE_CTX_set_seq,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/hpke/hpke.c
+OSSL_HPKE_decap,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 32 functions, reads libcrypto struct fields; internal calls: OSSL_HPKE_get_public_encap_size WPACKET_allocate_bytes WPACKET_cleanup WPACKET_finish WPACKET_get_curr WPACKET_get_total_written",crypto/hpke/hpke.c
+OSSL_HPKE_encap,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 32 functions, reads libcrypto struct fields; internal calls: OSSL_HPKE_get_public_encap_size WPACKET_allocate_bytes WPACKET_cleanup WPACKET_finish WPACKET_get_curr WPACKET_get_total_written",crypto/hpke/hpke.c
+OSSL_HPKE_get_ciphertext_size,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OSSL_HPKE_get_grease_value,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 12 functions, reads libcrypto struct fields; internal calls: OSSL_HPKE_keygen ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_AEAD_INFO_find_random ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KDF_INFO_find_random ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OSSL_HPKE_get_public_encap_size,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OSSL_HPKE_keygen,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: ossl_HPKE_AEAD_INFO_find_id ossl_HPKE_KDF_INFO_find_id ossl_HPKE_KEM_INFO_find_id",crypto/hpke/hpke.c
+OSSL_HPKE_open,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 3 functions, reads libcrypto struct fields; internal calls: ",crypto/hpke/hpke.c
+OSSL_HPKE_seal,OSSL_HPKE,3.2.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 3 functions, reads libcrypto struct fields; internal calls: ",crypto/hpke/hpke.c
+OSSL_HPKE_str2suite,OSSL_HPKE,3.2.0,3.0+,0,,"ssl,apps",y,,,,2,,copy-layout,"stateless, 4 functions, reads libcrypto struct fields; internal calls: OPENSSL_strnlen ossl_hpke_str2suite",crypto/hpke/hpke.c
+OCSP_SINGLERESP_get1_ext_d2i,OCSP,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/ocsp/ocsp_ext.c
+OSSL_PROVIDER_get_capabilities,OSSL_PROVIDER,3.0.0,3.0+,1,s390-tools,"ssl,apps",y,,,,1,,copy-layout,"stateless, 2 functions, reads libcrypto struct fields; internal calls: ossl_provider_get_capabilities",crypto/provider.c
+OSSL_STORE_INFO_get0_NAME,OSSL_STORE,1.1.1,pre-3.0,0,,"ssl,apps",y,,,,2,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/store/store_lib.c
+X509_STORE_CTX_init_rpk,X509,3.2.0,3.0+,0,,ssl,,,,,1,"deprecate 4.2, make private",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/x509/x509_vfy.c
+X509_STORE_CTX_set_ocsp_resp,OCSP,3.6.0,3.0+,0,,ssl,y,,,,1,,copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/x509/x509_vfy.c
+X509_VERIFY_PARAM_get0_peername,X509,1.0.2-or-earlier,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_get1_ip_asc,X509,3.0.0,3.0+,0,,ssl,,,,,2,,copy-layout,"stateless, 6 functions, reads libcrypto struct fields; internal calls: msvc_translate_printf_format ossl_ipaddr_to_asc snprintf vsnprintf",crypto/x509/x509_vpm.c
+X509_VERIFY_PARAM_move_peername,X509,1.1.0,pre-3.0,0,,ssl,,,,,1,"deprecate 4.2, make private",copy-layout,"stateless, 1 functions, reads libcrypto struct fields; internal calls: ",crypto/x509/x509_vpm.c
+d2i_PUBKEY_ex,PUBKEY,3.0.0,3.0+,1,libxmlsec1,ssl,y,,,_ex form of d2i_PUBKEY,4,,copy-layout,"stateless, 3 functions, reads libcrypto struct fields; internal calls: ",crypto/x509/x_pubkey.c
